@@ -1,0 +1,174 @@
+.menu__logo{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+.collection-item1{
+    display: flex;
+    align-items: center;
+}
+.collection .collection-item.active {
+    background-color: red;
+    opacity: 0.7;
+    color: #eafaf9;
+}
+.collection-item1:hover{
+    background-color: red;
+    opacity: 0.7;
+    color: #fff;
+}
+.border__none{
+    border: none;
+}
+.Dashboard__title > h4{
+    margin: 0;
+    margin-top: 32px;
+}
+.row1__block{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    margin-bottom: 40px;
+}
+.block__80{
+    width: 90%;
+}
+.dfa{
+    display: flex;
+    align-items: center;
+}
+.imgpadding{
+    padding: 15px;
+}
+.bold-text{
+    font-weight: 700;
+}
+.m0{
+margin: 0;
+}
+.p0{
+padding: 0;
+}
+.block__row1__text{
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.pozrel{
+position: relative;
+}
+.img__poz{
+    position: relative;
+    top: -15px;
+}
+.img__poz1{
+    position: relative;
+    
+    left: 10px;
+}
+.hr__color{
+    opacity: 0.3;
+    margin: 0;
+}
+.row1__img{
+    width: 13px;
+    height: 13px;
+}
+.mr20{
+    margin-right: 20px;
+}
+/* row2 */
+.row2__block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    height: 100%;
+}
+.responsive-img1{
+    padding: 20px;
+}
+.responsive-img2{
+    padding:2px 5px;
+}
+.mbottom10{
+    margin-bottom: 10px;
+}
+.opasity__img{
+    opacity: 0.4;
+}
+
+
+/* row3 */
+.border__bootom{
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+    
+}
+.df{
+    display: flex;
+}
+.row3__links{
+    
+    padding: 10px;
+}
+.row3__links1{
+    
+    padding: 10px;
+}
+.row3__links:hover{
+    background-color: rgba(250, 250, 250, 0.3);
+
+}
+.img__row3{
+    margin-right: 10px;
+}
+.row3__check{
+    padding: 7px 15px;
+}
+.img__check{
+    width: 20px;
+    height: 20px;
+    margin:0 5px;
+}
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    background-color: rgb(207, 206, 206);
+    z-index: 0;
+    
+}
+.responsive-img3{
+    padding:3px 15px;
+}
+.h100{
+    height: 394px;
+}
+.footer__link{
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.bnt__none{
+    display: none;
+}
+@media only screen and (max-width: 992px) {
+.sidenav > a {
+    padding: 0;
+}
+@media screen and (max-width:992px){
+    .dnone{
+        display: none;
+    }
+    .bnt__none{
+        display: block;
+    }
+}
+}
+
+/* navbar */
+.navbar__link {
+    font-size: 20px;
+}
+
+
+
+
